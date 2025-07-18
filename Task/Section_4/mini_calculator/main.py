@@ -1,4 +1,4 @@
-from add import add
+from Python_learning_module.Day12.Task.Section_4.task31_calculator.add import add
 from sub import sub
 from mul import mul
 from div import div

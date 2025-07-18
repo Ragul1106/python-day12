@@ -1,4 +1,4 @@
-from .stock import update_stock  # relative import
+from .stock import update_stock
 
 def sell_item(item):
     update_stock(item, -1)
