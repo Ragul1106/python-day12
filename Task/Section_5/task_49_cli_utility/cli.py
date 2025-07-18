@@ -1,20 +1,14 @@
 import argparse
-from utils import math_utils
+from utils import add, sub
 
-def main():
-    parser = argparse.ArgumentParser(description="Simple CLI Math Utility")
-    parser.add_argument("operation", choices=["add", "subtract"], help="Operation to perform")
-    parser.add_argument("x", type=int, help="First number")
-    parser.add_argument("y", type=int, help="Second number")
+parser = argparse.ArgumentParser()
+parser.add_argument('x', type=int)
+parser.add_argument('y', type=int)
+parser.add_argument('--op', choices=['add', 'sub'])
 
-    args = parser.parse_args()
+args = parser.parse_args()
 
-    if args.operation == "add":
-        result = math_utils.add(args.x, args.y)
-    elif args.operation == "subtract":
-        result = math_utils.subtract(args.x, args.y)
-    
-    print(f"Result: {result}")
-
-if __name__ == "__main__":
-    main()
+if args.op == 'add':
+    print("Sum:", add(args.x, args.y))
+elif args.op == 'sub':
+    print("Diff:", sub(args.x, args.y))

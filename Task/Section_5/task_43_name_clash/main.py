@@ -1,7 +1,4 @@
-# Import modules with aliases
-import greetings1 as g1
-import greetings2 as g2
-
-# Call the greet function from each module
-g1.greet()  
-g2.greet()  
+import module1 as m1
+import module2 as m2
+print(m1.greet())
+print(m2.greet())

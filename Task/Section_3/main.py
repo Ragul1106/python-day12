@@ -1,5 +1,5 @@
 # banking
-from banking import open_account, apply_loan, deposit
+from task_21_22_banking import open_account, apply_loan, deposit
 
 print(open_account("Alice"))
 print(apply_loan(50000))
@@ -13,9 +13,9 @@ register_student("John")
 register_teacher("Ms. Smith")
 
 # textutils
-from textutils import word_count
-from textutils.utils import capitalize_text
-from textutils.config import DEFAULT_CONFIG
+from task_25_26_27_textutils import word_count
+from task_25_26_27_textutils.utils import capitalize_text
+from task_25_26_27_textutils.config import DEFAULT_CONFIG
 
 print(word_count("Python is awesome"))
 print(capitalize_text("hello world"))

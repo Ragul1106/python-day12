@@ -1,3 +1,1 @@
-import helper
-
-print("main.py: __name__ =", __name__)
+import mod1
