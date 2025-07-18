@@ -1,0 +1,30 @@
+{
+  "name": "Ragul R",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "ragul@example.com",
+    "phone": "+91 9876543210",
+    "location": "Chennai, India"
+  },
+  "summary": "Passionate developer skilled in React, Python, and modern web technologies.",
+  "skills": ["Python", "Django", "React", "SQL", "REST APIs"],
+  "experience": [
+    {
+      "role": "Junior Developer",
+      "company": "CodeCraft Inc.",
+      "duration": "2023 - 2025",
+      "details": [
+        "Developed full-stack features using Django and React",
+        "Optimized database queries by 35%",
+        "Collaborated with 5+ team members on agile sprints"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "Anna University",
+      "year": "2023"
+    }
+  ]
+}
